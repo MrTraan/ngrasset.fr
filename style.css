@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'TerminalFont';
+	src: url('media/fonts/Ubuntu-L.ttf');
+}
+
+body {
+	background-color: #181818;
+	color: white;
+	padding: none;
+	font-family: 'TerminalFont';
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#prompt-field {
+	width: 100%;
+}
